@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 public class Filtros {
 
 	public static void filtros (List<Area>listEmpresaCompleta){
@@ -28,7 +27,7 @@ public class Filtros {
 					
 					break;
 				case 3:
-					System.out.println("EL  TIEMPO EN LA EMPRESA DEL EMPLEADO  ES ");
+					System.out.println("ANTIGUEDAD DE EMPLEADO ES ");
 					
 					break;
 				case 4:
@@ -59,6 +58,7 @@ public class Filtros {
 		}
 		System.out.println(listBuscar);
 	}
+	
 	public static void buscarGerente (List<Area>listEmpresaCompleta) {
 			Scanner entraDato = new Scanner (System.in);
 			List<Gerente> listBuscar = new ArrayList<>();
